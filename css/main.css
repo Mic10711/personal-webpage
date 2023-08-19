@@ -1,0 +1,38 @@
+.body{
+    background-color: lightslategray;
+  }
+  .card-img-top {
+      width: 100%;
+      height: 20vw;
+      object-fit: cover; 
+  }
+  .head1{
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+  }
+  h1{
+    text-align: center;
+  }
+  h5::first-line {
+    color: cadetblue;
+  }
+  h5 {
+    text-align: left;
+    text-shadow: 2px 2px 2px black;
+  }
+  footer{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  h2{
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function:inherit;
+    animation-direction: alternate;
+  }
+  @keyframes mymove {
+    from {left: 45rem;}
+    to {left: 55rem;}
+  }
